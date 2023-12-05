@@ -1,0 +1,14 @@
+<section class="flex flex-col px-5 items-start space-x-2">
+    <h1 class="text-[50px]   font-semibold">{{name}}</h1>
+    @if(name == "MyDay"){
+    <h4>{{currentDay}}</h4>
+    }
+    <ul class="list-none w-full mt-2   rating-md pb-2">
+        <app-list-item [checked]="false" title="hello" [stared]="false" ></app-list-item>
+        <app-list-item [checked]="false" title="hello" [stared]="false" ></app-list-item>
+        <app-list-item [checked]="false" title="hello" [stared]="false" ></app-list-item>
+        <app-list-item [checked]="false" title="hello" [stared]="false" ></app-list-item>
+        <app-list-item [checked]="false" title="hello" [stared]="false" ></app-list-item>
+        <app-list-item [checked]="false" title="hello" [stared]="false" ></app-list-item>
+    </ul>
+</section>

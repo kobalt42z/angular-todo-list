@@ -1,0 +1,26 @@
+<div class=" drawer lg:drawer-open">
+  <input id="my-drawer-side" type="checkbox" class="drawer-toggle" />
+  <div class="drawer-content ">
+    <ng-content />
+  </div>
+  <div class="drawer-side">
+    <label for="my-drawer-side" aria-label="close sidebar" class="drawer-overlay"></label>
+    <ul class="menu  p-4 w-80 min-h-full bg-base-200 text-base-content">
+      <!-- Sidebar content here -->
+      <li><a>My day <i class="fa-regular fa-sun" style="color: #e57206;"></i></a> </li>
+      <li><a>Important <i class="fa-regular fa-star" style="color: #ffd500;"></i></a></li>
+      <li><a>Tasks <i class="fa-solid fa-list-check" style="color: #2967d1;"></i> </a></li>
+      <div class="divider"></div>
+      <div class=" flex justify-between">
+        <div class="tooltip tooltip-right" data-tip="Add a Lits">
+          <i class="fa-solid fa-plus" style="color: #fdfcfc;"></i>
+        </div>
+        <div class="tooltip tooltip-left" data-tip="Add a Group">
+          <i class="fa-solid fa-layer-group" style="color: #fdfcfc;"></i>
+        </div>
+      </div>
+
+    </ul>
+
+  </div>
+</div>
