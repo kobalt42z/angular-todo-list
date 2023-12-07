@@ -17,6 +17,9 @@ dependencies:
   '@angular/core':
     specifier: ^17.0.0
     version: 17.0.5(rxjs@7.8.1)(zone.js@0.14.2)
+  '@angular/fire':
+    specifier: 0.0.0
+    version: 0.0.0
   '@angular/forms':
     specifier: ^17.0.0
     version: 17.0.5(@angular/common@17.0.5)(@angular/core@17.0.5)(@angular/platform-browser@17.0.5)(rxjs@7.8.1)
@@ -371,6 +374,10 @@ packages:
       rxjs: 7.8.1
       tslib: 2.6.2
       zone.js: 0.14.2
+
+  /@angular/fire@0.0.0:
+    resolution: {integrity: sha512-z6dYD4QwNySyVA1qylMSukhl4iWDwRhQ4GtjAJTVz0/MuJGN+CCSpjF7KpJxCHjfu3CtjtcA+Z79AhiUYThpEQ==}
+    dev: false
 
   /@angular/forms@17.0.5(@angular/common@17.0.5)(@angular/core@17.0.5)(@angular/platform-browser@17.0.5)(rxjs@7.8.1):
     resolution: {integrity: sha512-d91Rre/NK+SgamF1OJmDJUx+Zs8M7qFmrKu7c+hNsXPe8J/fkMNoWFikne/WSsegwY929E1xpeqvu/KXQt90ug==}
